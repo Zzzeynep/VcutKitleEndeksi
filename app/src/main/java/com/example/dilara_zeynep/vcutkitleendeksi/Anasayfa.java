@@ -5,6 +5,8 @@ import android.os.Bundle;
 
 public class Anasayfa extends AppCompatActivity {
 
+
+    //yorum
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
