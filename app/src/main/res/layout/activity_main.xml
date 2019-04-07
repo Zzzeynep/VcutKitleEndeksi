@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="570dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/editKilo"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Kilonuz"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editBoy"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Boyunuz"
+            android:inputType="textPersonName" />
+        <Button
+            android:id="@+id/buttonHesap"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:layout_marginTop="35dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_dark"
+            android:text="HESAPLA" />
+    </LinearLayout>
+
+
+    <android.support.design.widget.BottomNavigationView xmlns:design="http://schema.android.com/apk/res/android.support.design"
+        android:id="@+id/bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:paddingTop="92dp"
+        app:menu="@menu/altmenudetaylari" />
+
+</LinearLayout>

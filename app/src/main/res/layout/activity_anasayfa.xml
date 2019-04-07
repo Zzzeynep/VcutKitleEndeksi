@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Anasayfa">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/anasayfa" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:text="                        Sağlıklı Olmak İçin İpuçları
+- Size iyi gelen, iyilik hissi veren, rahatlık ve huzur duygunuzu güncelleyen keyifli insanlarla daha sık birlikte olun. Onlarla toplumsal faaliyetlerde, gönüllü organizasyonlarında görev alın.
+- Bağış yapın, bunun için gerekiyorsa imkanlarınızı zorlayın. Ekonominiz yeterli değilse tecrübelerinizi ve zamanınızı bağış için kullanın.
+- Yalnız kalmayın. Çoğalabildiğiniz kadar çoğalın. Çoğalmayı sadece “sayısal” bir durum gibi de algılamayın. Yalnızlık kaç tane arkadaşınız veya ne kadar sosyal bağlantınız olduğu ile ilişkili bir durum değildir. Yalnızlık duygusunun ölçüsünü belirleyen ilişkilerin sayısından çok ona verilen değer ve sizde oluşan algılardır.
+- Daha az oturun. Yürümeseniz bile daha çok ayakta durmaya çalışın. Oturmak, uzun süre hareketsiz kalma bazı sağlık problemleri (emboliler), muhtemel bazı hastalıkları (fazla kiloluluk, insülin direnci, hipertansiyon, diyabet) davet edebiliyor." />
+</LinearLayout>

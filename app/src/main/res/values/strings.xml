@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VücutKitleEndeksi</string>
+    <string name="footer_home">Home</string>
+    <string name="footer_health">Health</string>
+    <string name="footer_diet">Diet</string>
+    <string name="title">Vücut Kitle İndexi Hesapla</string>
+</resources>
